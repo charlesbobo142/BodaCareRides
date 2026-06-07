@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 5px 15px 5px 5px;
+}
+body{
+    background-color: rebeccapurple;
+    
+}
+.screen{
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border: solid black 2px;
+    background-color: dimgray;
+    color: white;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-x: scroll;
+}
+form{
+    background-color: whitesmoke;
+    width: 100%;
+    border: double white 5px;
+}
+form label {
+    font-weight: bold;
+    display: block;
+}
+form input[list="fromTowns"],
+form input[list="toTowns"]
+{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+form button{
+    background-color: dimgray;
+    width: 100px;
+    height: 40px;
+}
+.info{
+    display: block;
+    color: white;
+}
